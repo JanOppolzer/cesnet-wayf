@@ -9,12 +9,14 @@
   </head>
   <body class="bg-gray-50 p-4 text-gray-600">
     <main class="max-w-2xl mx-auto bg-white border rounded-lg shadow-lg">
-      <h1 class="py-4 text-2xl font-bold text-center">
-        Login to <i>Example Service</i>
-      </h1>
-      <h2 class="text-md pb-3 text-center border-b">
-        A service to make you more productive than ever.
-      </h2>
+      <section class="p-4 pb-5 border-b">
+        <h1 class="md:text-center text-2xl font-bold">
+          Login to <i>Example Service</i>
+        </h1>
+        <h2 class="text-md md:text-center">
+          A service to make you more productive than ever.
+        </h2>
+      </section>
       <section class="p-4 pb-5 border-b">
         <p class="pb-3 text-sm text-gray-400">
           Log in using favourite Identity Providers
@@ -115,22 +117,31 @@
     </main>
 
     <footer
-      class="border-t-gray-200 md:flex-row gap-x-5 gap-y-5 flex flex-col items-center justify-center p-4 pt-6 mt-6 text-sm border-t"
+      class="border-t-gray-200 md:flex-row gap-x-5 gap-y-5 flex flex-col items-center justify-center p-4 pt-6 mt-6 text-sm text-gray-400 border-t"
     >
       <div class="md:block hidden">
-        <img src="img/cesnet.png" width="99" height="40" alt="" />
+        <a href="https://www.cesnet.cz" target="_blank"
+          ><img src="img/cesnet.png" width="99" height="40" alt=""
+        /></a>
       </div>
       <div>
         <p>
-          CESNET, Zikova 4, Prague 6, 160 00, Czech Republic,
-          <a class="text-gray-400 underline" href="tel:+420234680222"
-            >+420 234 680 222</a
-          >,
-          <a class="text-gray-400 underline" href="mailto:info@cesnet.cz"
-            >info@cesnet.cz</a
+          &copy; 2010&ndash;2022
+          <a
+            class="hover:text-blue-600"
+            href="https://www.cesnet.cz/"
+            target="_blank"
+            >CESNET</a
           >
         </p>
-        <p>Copyright &copy; 2010&ndash;2022 CESNET</p>
+        <p>
+          <a
+            class="hover:text-blue-600"
+            href="https://www.cesnet.cz/personal-data-processing/cookies-en/?lang=en"
+            target="_blank"
+            >Personal data processing</a
+          >
+        </p>
       </div>
     </footer>
   </body>
