@@ -13,6 +13,10 @@ npm install
 npm run prod
 ```
 
+## Preview
+
+To see the result, go to [janoppolzer.github.io/cesnet-wayf](https://janoppolzer.github.io/cesnet-wayf).
+
 ## Contact
 
 Jan Oppolzer <jan.oppolzer@cesnet.cz>
